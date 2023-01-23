@@ -1,0 +1,83 @@
+.main-nav{
+    min-height: 50px;
+    width: 100%;
+    margin: 0% auto;
+    box-shadow: 0px 1px 5px #00000033;
+    position: fixed;
+    z-index: 5;
+    top: 0%;
+    left: 0%;
+    background-color: #f8f9f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navbar{
+    height: 100%;
+    min-width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo{
+    padding: 5px 5px;
+    color: aqua;
+    font-size: larger;
+    font-weight: 200;
+}
+
+
+
+.navbar form{
+    flex-grow: 1;
+    padding: 0px 12px;
+    position: relative;
+    
+}
+
+.navbar form input{
+    min-width: 90%;
+    margin: 0;
+    padding: 8px 10px 8px 32px;
+    font-size: 13px;
+    border: solid 1px #00000033;
+    border-radius: 3px;
+
+}
+.products-iten{
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+}
+.search-btn{
+    height: 35px;
+    width: 140px;
+    background-color: yellow;
+    border: none;
+    border-radius: 5% 5% 5% 5%;
+    font-weight: bold;
+    margin-top: 6%;
+}
+.container-1,.container-2{
+    display: flex;
+
+}
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price{
+    color: aqua;
+}
+.main-container{
+    margin-top: 5%;
+    width: auto;
+}
+.nav-btn{
+    margin-left: 1%;
+}
+
